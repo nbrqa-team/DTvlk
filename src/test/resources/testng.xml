@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DTvlk-Suite">
+<listeners>
+	<listener  class-name ="com.utility.MyListener" />
+</listeners>
+  <test thread-count="5" name="DTvlk-Test">
+  	<packages>
+       <package name="com.tvlk"/>
+    </packages>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
