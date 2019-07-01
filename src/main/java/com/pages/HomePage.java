@@ -1,5 +1,7 @@
 package com.pages;
 
-public class HomePage {
+import com.base.DriverBase;
+
+public class HomePage extends DriverBase{
 
 }

@@ -12,9 +12,9 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import com.base.DiverBase;
+import com.base.DriverBase;
 
-public class MyListener extends DiverBase implements ITestListener {
+public class MyListener extends DriverBase implements ITestListener {
 
 	public void onTestSuccess(ITestResult result) {
 		Log.startTestCase(result.getName()+" Passed");

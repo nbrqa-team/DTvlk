@@ -1,5 +1,7 @@
 package com.pageObjects;
 
-public class HomePageElements {
+import com.base.DriverBase;
+
+public class HomePageElements extends DriverBase{
 
 }

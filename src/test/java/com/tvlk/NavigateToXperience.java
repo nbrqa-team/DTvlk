@@ -1,17 +1,15 @@
 package com.tvlk;
 
 import org.testng.annotations.Test;
+import com.testbase.TestBase;
 
-import com.base.DiverBase;
-import com.utility.Log;
 
-public class NavigateToXperience extends DiverBase{
+public class NavigateToXperience extends TestBase{
 	
   @Test
   public void NavigateToXperienceMethod() throws InterruptedException{
 	 
 	  Thread.sleep(3000);
-	  
 	  
   }
 }
