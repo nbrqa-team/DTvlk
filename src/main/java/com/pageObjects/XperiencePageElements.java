@@ -1,5 +1,6 @@
 package com.pageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -14,6 +15,6 @@ public class XperiencePageElements extends DriverBase {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(how=How.XPATH, using="//input[@data-id='experienceAutoComplete']")
-	public WebElement destination;
+	public By searchBox=By.xpath("//input[@data-id='experienceAutoComplete']");
+
 }

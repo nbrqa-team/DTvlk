@@ -13,12 +13,9 @@ public class NavigateToXperience extends TestBase{
   XperiencePage xpage=null;
 	
   @Test
-  public void NavigateToXperienceMethod() throws InterruptedException{
+  public void NavigateToXperienceMethod(){
 	 
 	  page=new HomePage();
 	  xpage=page.NavigateToXprienceFromHeader();
-	  
-	  
-	  
   }
 }
